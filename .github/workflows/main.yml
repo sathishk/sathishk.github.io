@@ -23,7 +23,6 @@ jobs:
           extended: true
 
       - name: Run Hugo
-        working-directory: sample-book
         run: hugo
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
