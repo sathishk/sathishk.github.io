@@ -24,9 +24,7 @@ jobs:
 
       - name: Run Hugo
         working-directory: sample-book
-        run: | 
-            git submodule add https://github.com/techatpark/my-resume.git themes/my-resume
-            hugo
+        run: hugo
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
