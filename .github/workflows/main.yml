@@ -26,5 +26,3 @@ jobs:
         run: hugo
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: ./sample-book/public # The folder the action should deploy.
