@@ -23,8 +23,8 @@ jobs:
           extended: true
 
       - name: Run Hugo
-        run: hugo
+        run: hugo --themesDir ../..
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: public # The folder the action should deploy.
+          folder: ./public # The folder the action should deploy.
