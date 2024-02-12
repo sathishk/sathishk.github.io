@@ -14,7 +14,7 @@ firstName = "Sathish Kumar"
 lastName = "Thiyagarajan"
 phone = "1-555-555-1234"
 profileImage = "https://avatars.githubusercontent.com/u/1736813?v=4"
-showQr = true
+showSocializations = true
 showContact = false
 sections = ["skills","publications","creations","contributions","experience","education","blog"]
 
